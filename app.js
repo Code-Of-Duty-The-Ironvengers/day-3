@@ -107,3 +107,32 @@ function customIndexOf(array, value) {
 
 //   return -1;
 // }
+
+const arrToLoop = [
+  "Asem",
+  "Maxime",
+  "Kira",
+  "Soumia",
+  "Tiffany",
+  "Diane",
+  "Diana",
+  "Pelayo",
+  "Nana",
+  "Elvan",
+  "Tony",
+  "Nico",
+  "Aderemi",
+  "Abhijeet",
+];
+
+for (let i = 0; i < arrToLoop.length; i++) {
+  const studentName = arrToLoop[i];
+  console.log(`Hi, my name is ${studentName}`);
+}
+
+console.log("-------------");
+
+// for ... of
+for (const studentName of arrToLoop) {
+  console.log(`Hi, my name is ${studentName}`);
+}
